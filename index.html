@@ -9,18 +9,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <script type="text/javascript"
-    src="jquery-3.7.1.min.js">
-</script>
-<script> 
-$(document).ready(function(){
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-});
-</script>   
+
 </head>
 <body>
-    <div id="header">This is a test</div>
+    <section id="header">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#interest">Area of Interest</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="lang">
+            <ul>
+            <li><a href="index.html">Eng <img src="images/united-kingdom-flag-icon.svg" alt="english"> </a></li>
+            <li><a href="/fr/index.html">Fr <img src="images/france-flag-icon.svg" alt="french"></a></li>
+            <li><a href="/ar/index.html">العربية <img src="images/chad-flag-icon.svg" alt="french"></a></li>
+            </ul>
+        </div>
+        
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Add your projects here -->
+        <div class="project">
+            <div class="project-item">
+                <h4>Exploration et analyse des données X/Twitter</h4>
+            </div>
+                <p>Exploration de l'un des sites web les plus visités de l'internet. X/Twitter a atteint plus d'un milliard de visites il y a peu.</p>
+                <p>Interested in the project 👉 <span><a class="scribd" href="https://www.scribd.com/document/613225857/Physical-informed-neural-network-for-structural-health-monitoring-applications"><img src="images/pdf-svgrepo-com.svg" alt="pdf"></a></span></p>
+                <p>notebook's link 👉 <a href="https://github.com/cmi-kamalos/Data-science-repo/blob/main/Data%20Analyis%20and%20Exploration/twitter_user_data_exploration.ipynb"><img src="images/icons8-github.svg" alt="github_project"></a></p>
+            <div class="project-item">
+                <h4>Intelligence physique neuronale pour les applications de surveillance de l'état des structures</h4>
+            </div>
+                <p>The present thesis was thereby applying Data Science helps monitoring structural health components in Applied Mechanics and Systems Research Laboratory (LASMAP) to predict and alert potential damages by using Physical informed neural network.Recently, PINN has demonstrated its effciency
+                        by avoiding overfiting problem which result of insufficient data and the ability to draw the physic reality along with the probabilistic and mathematical view of a machine learning algorithm(in this case Arti-fcial neural network ). Combined both will lead to efficiently resolve physical problems that approximation and error reduction is critical to just being conclude by traditional machine learning approach.</p>
+                <p>Interested in the dissertation 👉 <span><a class="scribd" href="https://www.scribd.com/document/613225857/Physical-informed-neural-network-for-structural-health-monitoring-applications"><img src="images/icons8-scribd-is-a-digital-library,-e-book-and-audiobook-subscription-service-24.png" alt="scribd"></a></span></p>
+                <p>The repo of the work 👉 <a href="https://github.com/cmi-kamalos/PINN_Structural_health_monotoring"><img src="images/icons8-github.svg" alt="github_project"></a></p>
+            </div>
+            </div>
+        
+        <!-- Repeat the above structure for more projects -->
+    </section>
     <section id="about">
         <h2>About</h2>
         <div>
@@ -62,20 +93,7 @@ $(document).ready(function(){
         
     </section>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <!-- Add your projects here -->
-        <div class="project">
-        <div class="project-item">
-            <a href="https://github.com/cmi-kamalos/PINN_Structural_health_monotoring"><img src="images/icons8-github.svg" alt="github_project"></a>
-            <h4>Physical informed neural for structural health monitoring applications</h4>
-        </div>
-            <p>The present thesis was thereby applying Data Science helps monitoring structural health components in Applied Mechanics and Systems Research Laboratory (LASMAP) to predict and alert potential damages by using Physical informed neural network.Recently, PINN has demonstrated its effciency
-                 by avoiding overfiting problem which result of insufficient data and the ability to draw the physic reality along with the probabilistic and mathematical view of a machine learning algorithm(in this case Arti-fcial neural network ). Combined both will lead to efficiently resolve physical problems that approximation and error reduction is critical to just being conclude by traditional machine learning approach.</p>
-            <p>Interested in the dissertation 👉 <span><a class="scribd" href="https://www.scribd.com/document/613225857/Physical-informed-neural-network-for-structural-health-monitoring-applications"><img src="images/icons8-scribd-is-a-digital-library,-e-book-and-audiobook-subscription-service-24.png" alt="scribd"></a></span></p> 
-        </div>
-        <!-- Repeat the above structure for more projects -->
-    </section>
+   
 
     <section id="interest">
         <h2>Area of Interest</h2>
