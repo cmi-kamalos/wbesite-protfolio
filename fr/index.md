@@ -1,1 +1,1 @@
-https://github.com/cmi-kamalos/wbesite-protfolio/new/main/fr/index.html
+https://cmi-kamalos.github.io/wbesite-protfolio/fr/index.html
