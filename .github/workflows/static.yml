@@ -40,4 +40,4 @@ jobs:
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: awalsh128/cache-apt-pkgs-action@v1.4.3
