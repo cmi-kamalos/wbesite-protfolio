@@ -34,10 +34,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
-        uses: awalsh128/cache-apt-pkgs-action@v1.4.3
+        uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: awalsh128/cache-apt-pkgs-action@v1.4.3
+        uses: actions/deploy-pages@v4
