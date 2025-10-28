@@ -187,6 +187,10 @@ section {
      #contact article p {
         width: 100%;
     }
+    #role div {
+        display: flex;
+        flex-wrap: wrap;
+     } 
    
 }
   
